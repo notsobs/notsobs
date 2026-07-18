@@ -1,5 +1,5 @@
-<h1 align="center">Hey, I'm Omar 👋</h1>
-<p align="center">Rebuilding cybersecurity skills from the ground up — one lab, one CTF, one bad config at a time.</p>
+<h1 align="center">Hey, Name's Omar</h1>
+<p align="center">Rebuilding cybersecurity Hands on experience from the ground up.</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/focus-blue%20team%20%2F%20detection-1f6feb" />
