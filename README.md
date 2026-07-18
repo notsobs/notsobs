@@ -14,7 +14,7 @@ getting back my knowledge in cyber security which wasn't that much honestly but 
 
 ### Projects
 
-| Project | What it demonstrates | block ssh brute-force attacks |
+| Project | What it demonstrates |
 |---|---|
 | 🔐 [SSH Brute-Force Detection](https://github.com/notsobs/SSH-bruteforce-detection)|
 ### Toolbox
