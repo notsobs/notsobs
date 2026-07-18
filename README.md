@@ -1,0 +1,32 @@
+<h1 align="center">Hey, I'm Omar 👋</h1>
+<p align="center">Rebuilding cybersecurity skills from the ground up — one lab, one CTF, one bad config at a time.</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/focus-blue%20team%20%2F%20detection-1f6feb" />
+  <img src="https://img.shields.io/badge/status-actively%20learning-brightgreen" />
+</p>
+
+---
+
+### What I'm doing right now
+
+getting back my knowledge in cyber security which wasn't that much honestly but also tryna expand my Hands on experience through projects that I'm currently working on.
+
+### Projects
+
+| Project | What it demonstrates |
+|---|---|
+| 🔐 [SSH Brute-Force Detection](https://github.com/notsobs/SSH-bruteforce-detection)|
+### Toolbox
+
+| 📝  |
+
+*(More going up here as I finish them — this list is a work in progress.)*
+
+### A bit of context
+
+University student, computer science / IT track. Currently deciding on a final project — Any help/recommondations would be appreciated.
+
+---
+
+<p align="center"><i>Not chasing perfect — just building things that actually work, and understanding why they do.</i></p>
