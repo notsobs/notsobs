@@ -16,7 +16,7 @@ getting back my knowledge in cyber security which wasn't that much honestly but 
 
 | Project | What it demonstrates |
 |---|---|
-| 🔐 [SSH Brute-Force Detection](https://github.com/notsobs/SSH-bruteforce-detection)|
+| 🔐 [SSH Brute-Force Detection](https://github.com/notsobs/SSH-bruteforce-detection)| block ssh brute-force attacks |
 ### Toolbox
 
 | 📝  |
@@ -29,4 +29,4 @@ University student, computer science / IT track. Currently deciding on a final p
 
 ---
 
-<p align="center"><i>Not chasing perfect — just building things that actually work, and understanding why they do.</i></p>
+<p align="center"><i>fk procrastinating.</i></p>
