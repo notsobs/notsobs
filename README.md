@@ -25,7 +25,7 @@ getting back my knowledge in cyber security which wasn't that much honestly but 
 
 ### A bit of context
 
-University student, computer science / IT track. Currently deciding on a final project — Any help/recommondations would be appreciated.
+University student, Cyber security track. Currently deciding on a final project — Any help/recommondations would be appreciated.
 
 ---
 
