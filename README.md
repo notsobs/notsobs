@@ -12,9 +12,7 @@
 
 getting back my knowledge in cyber security which wasn't that much honestly but also tryna expand my Hands on experience through projects that I'm currently working on.
 
-### Projects
-
-### Projects
+### Beginner-Friendly Projects:
 
 | Project | What it demonstrates |
 |---|---|
