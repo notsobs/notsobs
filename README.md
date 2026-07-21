@@ -14,13 +14,16 @@ getting back my knowledge in cyber security which wasn't that much honestly but 
 
 ### Projects
 
+### Projects
+
 | Project | What it demonstrates |
 |---|---|
-| 🔐 [SSH Brute-Force Detection](https://github.com/notsobs/SSH-bruteforce-detection)| block ssh brute-force attacks |
+| 🔐 [SSH Brute-Force Detection](https://github.com/notsobs/SSH-bruteforce-detection) | Full attack chain ssh brute force caught with splunk
+| 🛡️ [Port Scan Detection](https://github.com/notsobs/port-scan-detection) | Nmap port scans detected via the ELK stack —
+
 ### Toolbox
 
-| 📝 [PORT SCAN DETECTION](https://github.com/notsobs/SSH-bruteforce-detection)      |
-
+`Nmap` · `Metasploit` · `Burp Suite` · `Wireshark` · `Hashcat` · `Gobuster` / `ffuf` · `Splunk` · `ELK (Elasticsearch/Kibana/Filebeat)` · `Linux` (Kali / Ubuntu)
 *(More going up here as I finish them — this list is a work in progress.)*
 
 ### A bit of context
