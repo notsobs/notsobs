@@ -19,7 +19,7 @@ getting back my knowledge in cyber security which wasn't that much honestly but 
 | Project | What it demonstrates |
 |---|---|
 | 🔐 [SSH Brute-Force Detection](https://github.com/notsobs/SSH-bruteforce-detection) | Full attack chain ssh brute force caught with splunk
-| 🛡️ [Port Scan Detection](https://github.com/notsobs/port-scan-detection) | Nmap port scans detected via the ELK stack —
+| 🛡️ [Port Scan Detection](https://github.com/notsobs/port-scan-detection) | Nmap port scans detected via the ELK stack
 
 ### Toolbox
 
