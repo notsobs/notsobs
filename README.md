@@ -2,7 +2,7 @@
 
 # Omar — Cybersecurity - blue teaming
 
-**Rebuilding hands-on cybersecurity skills from the ground up — every lab built, broken, debugged, and documented by me.**
+**Building Hands on experience while getting back to cyber security.**
 
 ![Focus](https://img.shields.io/badge/focus-blue%20team%20%2F%20detection-1f6feb?style=for-the-badge)
 ![Status](https://img.shields.io/badge/status-actively%20learning-brightgreen?style=for-the-badge)
@@ -26,9 +26,9 @@ Each one follows the same shape: build a real attack chain, generate real log da
 
 | Project | Info | What it demonstrates |
 |---|---|---|
-| **[🔐 SSH Brute-Force Detection](https://github.com/notsobs/SSH-bruteforce-detection)** — SSH brute force, caught in Splunk | ![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white) ![Difficulty](https://img.shields.io/badge/difficulty-beginner-brightgreen?style=flat-square) | Threshold-based SPL alerting, failed→success correlation, and hands-on debugging of OpenSSH's `PerSourcePenalties`/`MaxAuthTries` defenses |
-| **[🛡️ Port Scan Detection](https://github.com/notsobs/port-scan-detection)** — Nmap scans caught via the ELK stack | ![Elastic](https://img.shields.io/badge/Elastic-005571?style=flat-square&logo=elasticsearch&logoColor=white) ![Difficulty](https://img.shields.io/badge/difficulty-beginner-brightgreen?style=flat-square) | Custom GROK ingest pipeline, iptables logging, Kibana threshold alerting on distinct ports touched per source IP |
-| **[🎯 Web Attack Detection](https://github.com/notsobs/web-attack-detection)** — Web Attacks detected via splunk| ![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white) ![Difficulty](https://img.shields.io/badge/difficulty-beginner--intermediate-yellow?style=flat-square) | Multi-vector web attack classification in SPL, plus a documented real limitation (POST-body blind spot in standard access logs) |
+| **[🔐 SSH Brute-Force Detection](https://github.com/notsobs/SSH-bruteforce-detection)** — SSH brute force, caught in Splunk | ![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white) ![Difficulty](https://img.shields.io/badge/difficulty-beginner-brightgreen?style=flat-square) | Threshold-based SPL alerting. |
+| **[🛡️ Port Scan Detection](https://github.com/notsobs/port-scan-detection)** — Nmap scans caught via the ELK stack | ![Elastic](https://img.shields.io/badge/Elastic-005571?style=flat-square&logo=elasticsearch&logoColor=white) ![Difficulty](https://img.shields.io/badge/difficulty-beginner-brightgreen?style=flat-square) | iptables logging, Kibana threshold alerting. |
+| **[🎯 Web Attack Detection](https://github.com/notsobs/web-attack-detection)** — Web Attacks detected via splunk| ![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white) ![Difficulty](https://img.shields.io/badge/difficulty-beginner--intermediate-yellow?style=flat-square) | Multi-vector web attack classification in SPL. |
 
 *More going up as I finish them.*
 
