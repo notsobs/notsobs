@@ -2,7 +2,7 @@
 
 # Omar — Cybersecurity - blue teaming
 
-**Rebuilding hands-on cybersecurity skills from the ground up — every lab built, broken, debugged, and documented by me.**
+**Building Hands on experience while getting back to cyber security.**
 
 ![Focus](https://img.shields.io/badge/focus-blue%20team%20%2F%20detection-1f6feb?style=for-the-badge)
 ![Status](https://img.shields.io/badge/status-actively%20learning-brightgreen?style=for-the-badge)
