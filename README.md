@@ -14,10 +14,8 @@
 
 ## Quick Navigation
 
-**[Projects](#projects)** — three end-to-end attack simulation + detection labs, full writeups included
-**[Toolbox](#toolbox)** — what I actually use, not just what I've heard of
-**[Background](#background)** — where I'm at and where I'm headed
-
+**[Projects](#projects)** — three end-to-end attack simulation + detection labs, full writeups included.
+**[Toolbox](#toolbox)** — what I actually used and will use in future labs.
 ---
 
 ## Projects
