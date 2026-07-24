@@ -26,9 +26,9 @@ Each one follows the same shape: build a real attack chain, generate real log da
 
 | Project | Info | What it demonstrates |
 |---|---|---|
-| **[🔐 SSH Brute-Force Detection](https://github.com/notsobs/SSH-bruteforce-detection)** — Nmap recon → Metasploit brute force, caught in Splunk | ![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white) ![Difficulty](https://img.shields.io/badge/difficulty-beginner-brightgreen?style=flat-square) | Threshold-based SPL alerting, failed→success correlation, and hands-on debugging of OpenSSH's `PerSourcePenalties`/`MaxAuthTries` defenses |
+| **[🔐 SSH Brute-Force Detection](https://github.com/notsobs/SSH-bruteforce-detection)** — SSH brute force, caught in Splunk | ![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white) ![Difficulty](https://img.shields.io/badge/difficulty-beginner-brightgreen?style=flat-square) | Threshold-based SPL alerting, failed→success correlation, and hands-on debugging of OpenSSH's `PerSourcePenalties`/`MaxAuthTries` defenses |
 | **[🛡️ Port Scan Detection](https://github.com/notsobs/port-scan-detection)** — Nmap scans caught via the ELK stack | ![Elastic](https://img.shields.io/badge/Elastic-005571?style=flat-square&logo=elasticsearch&logoColor=white) ![Difficulty](https://img.shields.io/badge/difficulty-beginner-brightgreen?style=flat-square) | Custom GROK ingest pipeline, iptables logging, Kibana threshold alerting on distinct ports touched per source IP |
-| **[🎯 Web Attack Detection](https://github.com/notsobs/web-attack-detection)** — DVWA attacked across SQLi, XSS, command injection & LFI | ![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white) ![Difficulty](https://img.shields.io/badge/difficulty-beginner--intermediate-yellow?style=flat-square) | Multi-vector web attack classification in SPL, plus a documented real limitation (POST-body blind spot in standard access logs) |
+| **[🎯 Web Attack Detection](https://github.com/notsobs/web-attack-detection)** — Web Attacks detected via splunk| ![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white) ![Difficulty](https://img.shields.io/badge/difficulty-beginner--intermediate-yellow?style=flat-square) | Multi-vector web attack classification in SPL, plus a documented real limitation (POST-body blind spot in standard access logs) |
 
 *More going up as I finish them.*
 
@@ -38,11 +38,8 @@ Each one follows the same shape: build a real attack chain, generate real log da
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 
 ![Nmap](https://img.shields.io/badge/Nmap-000000?style=flat-square)
 ![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=flat-square)
@@ -68,9 +65,7 @@ Each one follows the same shape: build a real attack chain, generate real log da
 
 ![Kali](https://img.shields.io/badge/Kali%20Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=flat-square&logo=virtualbox&logoColor=white)
+
 
 ---
 
