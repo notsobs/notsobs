@@ -73,5 +73,5 @@ University student, Cyber security track. Currently deciding on a final project 
 ---
 
 <div align="center">
-<i>Winning only.</i>
+<i>the best procrastinator out there but we make it work</i>
 </div>
