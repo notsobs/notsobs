@@ -20,7 +20,7 @@
 
 ## Projects
 
-Each one follows the same shape: build a real attack chain, generate real log data, build real detection logic, document what broke and how it got fixed. No canned datasets — every log line in every project came from an attack I actually ran myself.
+Each one follows the same shape: build a real attack chain, generate real log data, build real detection logic. No canned datasets — every log line in every project came from an attack I actually ran myself.
 
 | Project | Info | What it demonstrates |
 |---|---|---|
