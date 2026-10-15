@@ -1,78 +1,27 @@
-<div align="center">
+# Omar | Cybersecurity
 
-# Omar — Cybersecurity - blue teaming
+I’m a university student focused on blue-team work, detection engineering, and security automation. I use a Kali and Ubuntu lab to test attacks, inspect the logs they leave behind, and write detections I can explain.
 
-**Building Hands on experience while getting back to cyber security.**
-
-![Focus](https://img.shields.io/badge/focus-blue%20team%20%2F%20detection-1f6feb?style=for-the-badge)
-![Status](https://img.shields.io/badge/status-actively%20learning-brightgreen?style=for-the-badge)
-![Based in](https://img.shields.io/badge/based%20in-Amman%2C%20Jordan-orange?style=for-the-badge)
-
-</div>
-
----
-
-## Quick Navigation
-
-**[Projects](#projects)** — three end-to-end attack simulation + detection labs, full writeups included.
-**[Toolbox](#toolbox)** — what I actually used and will use in future labs.
----
+This is where I keep the projects, queries, and notes from that work. Each writeup covers the setup, the detection logic, and the gaps I found along the way.
 
 ## Projects
 
-Each one follows the same shape: build a real attack chain, generate real log data, build real detection logic. No canned datasets — every log line in every project came from an attack I actually ran myself.
+| Project | What I built | What I learned |
+| --- | --- | --- |
+| [CI/CD Pipeline Security Auditor](https://github.com/notsobs/ci-cd-pipeline-security-auditor) | Python auditor for GitHub Actions: suspected secrets, dependency pins, injection patterns, and risky permissions. Includes vulnerable/corrected examples and automated tests. | How to turn configuration risks into repeatable checks and useful findings. |
+| [Custom SSH Intrusion Detection System](https://github.com/notsobs/Custom-IDS) | Python log analyzer that flags repeated SSH failures and later logins from a flagged source. | Sliding windows, log parsing, and the limits of IP-based correlation. |
+| [SSH Brute-Force Detection](https://github.com/notsobs/SSH-bruteforce-detection) | An isolated SSH attack simulation with Splunk queries for failed logins and suspicious successful access. | Choosing thresholds and distinguishing an alert from evidence of compromise. |
+| [Port Scan Detection](https://github.com/notsobs/port-scan-detection) | Nmap activity logged with iptables, shipped through Filebeat, and investigated in Elasticsearch and Kibana. | Detecting reconnaissance through distinct destination ports. |
+| [Web Attack Detection](https://github.com/notsobs/Web-Attacks-Detection) | DVWA attack simulations and SPL queries for SQL injection, XSS, and path traversal. | URL decoding and the visibility lost when POST bodies are absent from access logs. |
 
-| Project | Info | What it demonstrates |
-|---|---|---|
-| **[🔐 SSH Brute-Force Detection](https://github.com/notsobs/SSH-bruteforce-detection)** — SSH brute force, caught in Splunk | ![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white) ![Difficulty](https://img.shields.io/badge/difficulty-beginner-brightgreen?style=flat-square) | Threshold-based SPL alerting. |
-| **[🛡️ Port Scan Detection](https://github.com/notsobs/port-scan-detection)** — Nmap scans caught via the ELK stack | ![Elastic](https://img.shields.io/badge/Elastic-005571?style=flat-square&logo=elasticsearch&logoColor=white) ![Difficulty](https://img.shields.io/badge/difficulty-beginner-brightgreen?style=flat-square) | iptables logging, Kibana threshold alerting. |
-| **[🎯 Web Attack Detection](https://github.com/notsobs/web-attack-detection)** — Web Attacks detected via splunk| ![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white) ![Difficulty](https://img.shields.io/badge/difficulty-beginner--intermediate-yellow?style=flat-square) | Multi-vector web attack classification in SPL. |
-| **[🛡️ Custom Intrusion Detection System](https://github.com/notsobs/Custom-IDS)** — compromise detection via Python log analysis | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Difficulty](https://img.shields.io/badge/difficulty-beginner-green?style=flat-square) ![WIP](https://img.shields.io/badge/status-active--development-blue?style=flat-square) | Parses auth.log to detect brute force attempts and failed→success compromise sequences. |
+## Tools used in these projects
 
-*More going up as I finish them.*
+- **Detection and investigation:** Splunk, SPL, Elasticsearch, Kibana, Filebeat.
+- **Automation:** Python, regular expressions, YAML, Git, GitHub Actions.
+- **Lab work:** Kali Linux, Ubuntu Server, VirtualBox, Nmap, Metasploit, DVWA, Apache, iptables.
 
----
+## What I’m working on
 
-## Toolbox - more are added when documented
+Making detections more reliable: checking benign cases, documenting false positives, and being clear about what the available data cannot prove. I’m also extending that approach to CI/CD security and automated checks.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
-![Nmap](https://img.shields.io/badge/Nmap-000000?style=flat-square)
-![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=flat-square)
-![Burp Suite](https://img.shields.io/badge/Burp%20Suite-FF6633?style=flat-square)
-![Hydra](https://img.shields.io/badge/Hydra-red?style=flat-square)
-![Hashcat](https://img.shields.io/badge/Hashcat-000000?style=flat-square)
-![Gobuster/ffuf](https://img.shields.io/badge/Gobuster%20%2F%20ffuf-333333?style=flat-square)
-![John the Ripper](https://img.shields.io/badge/John%20the%20Ripper-black?style=flat-square)
-![sqlmap](https://img.shields.io/badge/sqlmap-orange?style=flat-square)
-
-![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
-![Kibana](https://img.shields.io/badge/Kibana-005571?style=flat-square&logo=kibana&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
-![Autopsy](https://img.shields.io/badge/Autopsy-2E3440?style=flat-square)
-![Volatility](https://img.shields.io/badge/Volatility-6E4C13?style=flat-square)
-
-![iptables](https://img.shields.io/badge/iptables-EE0000?style=flat-square)
-![Fail2ban](https://img.shields.io/badge/Fail2ban-282828?style=flat-square)
-![Apache](https://img.shields.io/badge/Apache-D22128?style=flat-square&logo=apache&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)
-
-![Kali](https://img.shields.io/badge/Kali%20Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
-
-
----
-
-## Background
-
-University student, Cyber security track. Currently deciding on a final project — Any help/recommondations would be appreciated.
----
-
-<div align="center">
-<i>the best procrastinator out there but we make it work</i>
-</div>
+The lab writeups describe my recorded experiments. The auditor uses deliberately vulnerable test configurations; its sample credentials are fake.
