@@ -6,13 +6,15 @@ This is where I keep the projects, queries, and notes from that work. Each write
 
 ## Projects
 
-| Project | What I built | What I learned |
-| --- | --- | --- |
-| [CI/CD Pipeline Security Auditor](https://github.com/notsobs/ci-cd-pipeline-security-auditor) | Python auditor for GitHub Actions: suspected secrets, dependency pins, injection patterns, and risky permissions. Includes vulnerable/corrected examples and automated tests. | How to turn configuration risks into repeatable checks and useful findings. |
-| [Custom SSH Intrusion Detection System](https://github.com/notsobs/Custom-IDS) | Python log analyzer that flags repeated SSH failures and later logins from a flagged source. | Sliding windows, log parsing, and the limits of IP-based correlation. |
-| [SSH Brute-Force Detection](https://github.com/notsobs/SSH-bruteforce-detection) | An isolated SSH attack simulation with Splunk queries for failed logins and suspicious successful access. | Choosing thresholds and distinguishing an alert from evidence of compromise. |
-| [Port Scan Detection](https://github.com/notsobs/port-scan-detection) | Nmap activity logged with iptables, shipped through Filebeat, and investigated in Elasticsearch and Kibana. | Detecting reconnaissance through distinct destination ports. |
-| [Web Attack Detection](https://github.com/notsobs/Web-Attacks-Detection) | DVWA attack simulations and SPL queries for SQL injection, XSS, and path traversal. | URL decoding and the visibility lost when POST bodies are absent from access logs. |
+- **[CI/CD Pipeline Security Auditor](https://github.com/notsobs/ci-cd-pipeline-security-auditor)** — Scans GitHub Actions for suspected secrets, mutable dependencies, injection patterns, and risky permissions. Includes vulnerable/corrected examples and automated tests.
+
+- **[Custom SSH Intrusion Detection System](https://github.com/notsobs/Custom-IDS)** — A Python log analyzer for failed-login bursts and suspicious successful access. Includes a synthetic sample and the limits of IP-based correlation.
+
+- **[SSH Brute-Force Detection](https://github.com/notsobs/SSH-bruteforce-detection)** — An isolated attack simulation with Splunk searches for failure bursts and suspicious authentication events.
+
+- **[Port Scan Detection](https://github.com/notsobs/port-scan-detection)** — Nmap reconnaissance investigated through iptables logs, Filebeat, Elasticsearch, and Kibana.
+
+- **[Web Attack Detection](https://github.com/notsobs/Web-Attacks-Detection)** — DVWA experiments and SPL queries for SQLi, XSS, and traversal, including the POST-body visibility gap.
 
 ## Tools used in these projects
 
