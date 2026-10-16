@@ -1,29 +1,27 @@
-# Omar | Cybersecurity
+# Hey, I'm Omar 👋
 
-I’m a university student focused on blue-team work, detection engineering, and security automation. I use a Kali and Ubuntu lab to test attacks, inspect the logs they leave behind, and write detections I can explain.
+I'm a university student learning cybersecurity by building things and seeing what shows up in the logs. Most of that happens in my home lab: Kali on one side, an Ubuntu server on the other, and a lot of figuring out why something didn't work.
 
-This is where I keep the projects, queries, and notes from that work. Each writeup covers the setup, the detection logic, and the gaps I found along the way.
+I'm especially interested in the defensive side. Running an attack is one part; understanding what it leaves behind and writing a useful detection is the part I want to get better at.
 
-## Projects
+## What I've been building
 
-- **[CI/CD Pipeline Security Auditor](https://github.com/notsobs/ci-cd-pipeline-security-auditor)** — Scans GitHub Actions for suspected secrets, mutable dependencies, injection patterns, and risky permissions. Includes vulnerable/corrected examples and automated tests.
+- **[CI/CD Pipeline Security Auditor](https://github.com/notsobs/ci-cd-pipeline-security-auditor)** — A Python tool for spotting risky GitHub Actions configurations: hardcoded secrets, unpinned actions, unsafe shell inputs, and overly broad permissions. Includes insecure examples and their fixes.
 
-- **[Custom SSH Intrusion Detection System](https://github.com/notsobs/Custom-IDS)** — A Python log analyzer for failed-login bursts and suspicious successful access. Includes a synthetic sample and the limits of IP-based correlation.
+- **[Custom SSH Intrusion Detection System](https://github.com/notsobs/Custom-IDS)** — My own Python SSH log analyzer. It looks for repeated login failures and flags successful access from suspicious IPs.
 
-- **[SSH Brute-Force Detection](https://github.com/notsobs/SSH-bruteforce-detection)** — An isolated attack simulation with Splunk searches for failure bursts and suspicious authentication events.
+- **[SSH Brute-Force Detection](https://github.com/notsobs/SSH-bruteforce-detection)** — Simulating SSH attacks in the lab, then using Splunk to find the failed logins and suspicious activity.
 
-- **[Port Scan Detection](https://github.com/notsobs/port-scan-detection)** — Nmap reconnaissance investigated through iptables logs, Filebeat, Elasticsearch, and Kibana.
+- **[Port Scan Detection](https://github.com/notsobs/port-scan-detection)** — Following an Nmap scan through firewall logs into Elasticsearch and Kibana.
 
-- **[Web Attack Detection](https://github.com/notsobs/Web-Attacks-Detection)** — DVWA experiments and SPL queries for SQLi, XSS, and traversal, including the POST-body visibility gap.
+- **[Web Attack Detection](https://github.com/notsobs/Web-Attacks-Detection)** — Trying SQL injection, XSS, and directory traversal against DVWA, then checking what the logs actually let me detect.
 
-## Tools used in these projects
+## Things I use
 
-- **Detection and investigation:** Splunk, SPL, Elasticsearch, Kibana, Filebeat.
-- **Automation:** Python, regular expressions, YAML, Git, GitHub Actions.
-- **Lab work:** Kali Linux, Ubuntu Server, VirtualBox, Nmap, Metasploit, DVWA, Apache, iptables.
+Python · Linux · Splunk / SPL · Elasticsearch · Kibana · Filebeat · GitHub Actions · Nmap · VirtualBox
 
-## What I’m working on
+## Still figuring out
 
-Making detections more reliable: checking benign cases, documenting false positives, and being clear about what the available data cannot prove. I’m also extending that approach to CI/CD security and automated checks.
+How to make detections useful without flagging everything. I'm working on testing normal activity alongside attacks, understanding false positives, and being clearer about what a log can and can't tell me.
 
-The lab writeups describe my recorded experiments. The auditor uses deliberately vulnerable test configurations; its sample credentials are fake.
+These repos are my working notes as much as they're a portfolio. Each one has the setup, what I tried, and the limitations I found. There's more to learn, and I'll keep adding to them as I go.
