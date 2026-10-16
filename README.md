@@ -6,15 +6,63 @@ I'm especially interested in the defensive side. Running an attack is one part; 
 
 ## What I've been building
 
-- **[CI/CD Pipeline Security Auditor](https://github.com/notsobs/ci-cd-pipeline-security-auditor)** — A Python tool for spotting risky GitHub Actions configurations: hardcoded secrets, unpinned actions, unsafe shell inputs, and overly broad permissions. Includes insecure examples and their fixes.
+[Security tools](#security-tools) · [Detection labs](#detection-labs) · [Things I use](#things-i-use)
 
-- **[Custom SSH Intrusion Detection System](https://github.com/notsobs/Custom-IDS)** — My own Python SSH log analyzer. It looks for repeated login failures and flags successful access from suspicious IPs.
+The levels are my rough guide to project complexity: **Beginner** covers a focused workflow, **Beginner–Intermediate** combines several steps or concepts, and **Intermediate** adds more integration and testing.
 
-- **[SSH Brute-Force Detection](https://github.com/notsobs/SSH-bruteforce-detection)** — Simulating SSH attacks in the lab, then using Splunk to find the failed logins and suspicious activity.
+### Security tools
 
-- **[Port Scan Detection](https://github.com/notsobs/port-scan-detection)** — Following an Nmap scan through firewall logs into Elasticsearch and Kibana.
+#### [CI/CD Pipeline Security Auditor](https://github.com/notsobs/ci-cd-pipeline-security-auditor)
 
-- **[Web Attack Detection](https://github.com/notsobs/Web-Attacks-Detection)** — Trying SQL injection, XSS, and directory traversal against DVWA, then checking what the logs actually let me detect.
+![Level: Intermediate](https://img.shields.io/badge/level-intermediate-F59E0B?style=flat-square) ![Type: Python tool](https://img.shields.io/badge/type-Python%20tool-3776AB?style=flat-square)
+
+A Python tool that checks GitHub Actions for suspected secrets, unpinned actions, unsafe shell inputs, and risky permissions. It runs in CI too, so the workflow gets checked whenever I push.
+
+**Skills:** YAML parsing, security rules, automated tests, GitHub Actions.
+
+[Try the examples](https://github.com/notsobs/ci-cd-pipeline-security-auditor#run-the-lab) · [Read the report](https://github.com/notsobs/ci-cd-pipeline-security-auditor/blob/main/REPORT.md)
+
+#### [Custom SSH Intrusion Detection System](https://github.com/notsobs/Custom-IDS)
+
+![Level: Beginner–Intermediate](https://img.shields.io/badge/level-beginner--intermediate-0D9488?style=flat-square) ![Type: Python tool](https://img.shields.io/badge/type-Python%20tool-3776AB?style=flat-square)
+
+My own SSH log analyzer, taking an idea from the Splunk lab and building it in Python. It counts failures in a sliding window and flags later successful logins from an alerted IP for review.
+
+**Skills:** regex, log parsing, time windows, event correlation.
+
+[Try the sample log](https://github.com/notsobs/Custom-IDS#run-it)
+
+### Detection labs
+
+#### [SSH Brute-Force Detection](https://github.com/notsobs/SSH-bruteforce-detection)
+
+![Level: Beginner](https://img.shields.io/badge/level-beginner-22C55E?style=flat-square) ![Type: Splunk lab](https://img.shields.io/badge/type-Splunk%20lab-000000?style=flat-square)
+
+A starting point for following an attack into the logs: generate SSH login attempts in an isolated lab, then investigate failures and successful access with Splunk.
+
+**Skills:** Linux authentication logs, SPL, threshold searches.
+
+[Read the lab](https://github.com/notsobs/SSH-bruteforce-detection#workflow) · [Browse the queries](https://github.com/notsobs/SSH-bruteforce-detection/tree/main/spl-queries)
+
+#### [Port Scan Detection](https://github.com/notsobs/port-scan-detection)
+
+![Level: Beginner–Intermediate](https://img.shields.io/badge/level-beginner--intermediate-0D9488?style=flat-square) ![Type: Elastic lab](https://img.shields.io/badge/type-Elastic%20lab-005571?style=flat-square)
+
+Following an Nmap scan through iptables logs, Filebeat, Elasticsearch, and Kibana. The detection looks for a source reaching many different destination ports.
+
+**Skills:** firewall logging, log ingestion, Grok parsing, cardinality alerts.
+
+[Read the lab](https://github.com/notsobs/port-scan-detection#lab-setup)
+
+#### [Web Attack Detection](https://github.com/notsobs/Web-Attacks-Detection)
+
+![Level: Beginner–Intermediate](https://img.shields.io/badge/level-beginner--intermediate-0D9488?style=flat-square) ![Type: Splunk lab](https://img.shields.io/badge/type-Splunk%20lab-000000?style=flat-square)
+
+Testing SQL injection, XSS, and file inclusion against DVWA, then writing searches around the Apache logs. The biggest lesson: a missing POST body means a missing piece of the investigation.
+
+**Skills:** HTTP logs, URL decoding, SPL patterns, visibility gaps.
+
+[Read the lab](https://github.com/notsobs/Web-Attacks-Detection#inputs-tested) · [Browse the queries](https://github.com/notsobs/Web-Attacks-Detection/tree/main/spl-queries)
 
 ## Things I use
 
