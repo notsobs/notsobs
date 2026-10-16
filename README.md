@@ -18,7 +18,17 @@ I'm especially interested in the defensive side. Running an attack is one part; 
 
 ## Things I use
 
-Python · Linux · Splunk / SPL · Elasticsearch · Kibana · Filebeat · GitHub Actions · Nmap · VirtualBox
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
+![Splunk / SPL](https://img.shields.io/badge/Splunk%20%2F%20SPL-000000?style=flat-square&logo=splunk&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
+![Kibana](https://img.shields.io/badge/Kibana-005571?style=flat-square&logo=kibana&logoColor=white)
+![Filebeat](https://img.shields.io/badge/Filebeat-005571?style=flat-square&logo=beats&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap-000000?style=flat-square)
+![VirtualBox](https://img.shields.io/badge/VirtualBox-2F61B4?style=flat-square&logo=virtualbox&logoColor=white)
 
 ## Still figuring out
 
