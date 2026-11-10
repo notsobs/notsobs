@@ -34,6 +34,16 @@ My own SSH log analyzer, taking an idea from the Splunk lab and building it in P
 
 ### Detection labs
 
+#### [Network IDS Rules with Suricata](https://github.com/notsobs/IDS-Suricata)
+
+![Level: Beginner–Intermediate](https://img.shields.io/badge/level-beginner--intermediate-0D9488?style=flat-square) ![Type: Suricata lab](https://img.shields.io/badge/type-Suricata%20lab-EE3224?style=flat-square)
+
+Writing 10 custom network signatures to catch volumetric floods (SYN, UDP, ICMP) and stealth port scans (Xmas, NULL). Deployed in an isolated lab to test the difference between rate-limiting thresholds and exact flag matches. 
+
+**Skills:** Suricata engine, packet inspection, Snort syntax, hping3, TCP/IP flags.
+
+[Read the lab](https://github.com/notsobs/IDS-Suricata#workflow) · [Browse the rules](https://github.com/notsobs/IDS-Suricata/tree/main/rules)
+
 #### [SSH Brute-Force Detection](https://github.com/notsobs/SSH-bruteforce-detection)
 
 ![Level: Beginner](https://img.shields.io/badge/level-beginner-22C55E?style=flat-square) ![Type: Splunk lab](https://img.shields.io/badge/type-Splunk%20lab-000000?style=flat-square)
@@ -70,6 +80,7 @@ Testing SQL injection, XSS, and file inclusion against DVWA, then writing search
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
+![Suricata](https://img.shields.io/badge/Suricata-EE3224?style=flat-square&logo=suricata&logoColor=white)
 ![Splunk / SPL](https://img.shields.io/badge/Splunk%20%2F%20SPL-000000?style=flat-square&logo=splunk&logoColor=white)
 ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
 ![Kibana](https://img.shields.io/badge/Kibana-005571?style=flat-square&logo=kibana&logoColor=white)
